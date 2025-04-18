@@ -23,3 +23,15 @@ Format: `\t`-delimited dengan dua kolom utama:
 
 ```bash
 pip install -r requirements.txt
+```
+
+2. **Run the Notebook with your Platform**
+
+3. **Run the Notebook with your Platform**
+
+```bash
+uvicorn serv:app --host 0.0.0.0 --port 8080
+```
+
+## Akses
+http://IP_OR_DOMAIN_SERVER:8080
